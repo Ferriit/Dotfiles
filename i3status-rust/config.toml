@@ -1,0 +1,15 @@
+[[block]]
+block = "cpu"
+format = "CPU: {usage}%"
+
+[[block]]
+block = "memory"
+format = "RAM: {used_percent}%"
+
+[[block]]
+block = "pulseaudio"
+# Or use `pipewire` if your i3status-rust build supports it
+
+# Optional:
+format = " {volume}%"
+headphones_indicator = true
