@@ -203,6 +203,10 @@ exec --no-startup-id pamixer --set-volume 100
 exec --no-startup-id pamixer --default-source --set-volume 50
 
 
+# Screenshot thingie
+bindsym Ctrl+Print exec flameshot gui
+
+
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
