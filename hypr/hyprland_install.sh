@@ -11,3 +11,6 @@ sudo pacman -S mako
 
 # Lock screen
 sudo pacman -S hyprlock
+
+# Wofi
+sudo pacman -S wofi
